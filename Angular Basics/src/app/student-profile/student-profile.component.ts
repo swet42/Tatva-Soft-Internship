@@ -10,18 +10,40 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./student-profile.component.css']
 })
 export class StudentProfileComponent {
-  // Two-way binding values
+  // Two-way binding inputs
   name: string = '';
   branch: string = '';
   enrollment: string = '';
   email: string = '';
 
-  // One-way binding value
+  // One-way binding
   welcomeMessage: string = 'Welcome to Student Profile Portal';
 
   submitted: boolean = false;
 
+  // Store submitted data
+  submittedData = {
+    name: '',
+    branch: '',
+    enrollment: '',
+    email: ''
+  };
+
   submitForm() {
+    // Copy data before clearing form
+    this.submittedData = {
+      name: this.name,
+      branch: this.branch,
+      enrollment: this.enrollment,
+      email: this.email
+    };
+
     this.submitted = true;
+
+    // Clear inputs
+    this.name = '';
+    this.branch = '';
+    this.enrollment = '';
+    this.email = '';
   }
 }

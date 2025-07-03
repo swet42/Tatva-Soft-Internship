@@ -2,7 +2,7 @@
   <!-- One-way binding -->
   <h2 class="text-center text-primary">{{ welcomeMessage }}</h2>
 
-  <!-- Form with Two-way binding -->
+  <!-- Form -->
   <form (ngSubmit)="submitForm()" #form="ngForm" class="card shadow p-4 mt-4 mx-auto" style="max-width: 500px;">
     <div class="mb-3">
       <label class="form-label">Full Name</label>
@@ -23,14 +23,14 @@
     <button class="btn btn-success w-100" [disabled]="!form.form.valid">Submit</button>
   </form>
 
-  <!-- Output section -->
+  <!-- Display submitted info -->
   <div *ngIf="submitted" class="mt-4 text-center">
     <div class="card p-3 shadow mx-auto" style="max-width: 500px;">
       <h4 class="text-success mb-3">Student Profile Submitted</h4>
-      <p><strong>Name:</strong> {{ name }}</p>
-      <p><strong>Branch:</strong> {{ branch }}</p>
-      <p><strong>Enrollment:</strong> {{ enrollment }}</p>
-      <p><strong>Email:</strong> {{ email }}</p>
+      <p><strong>Name:</strong> {{ submittedData.name }}</p>
+      <p><strong>Branch:</strong> {{ submittedData.branch }}</p>
+      <p><strong>Enrollment:</strong> {{ submittedData.enrollment }}</p>
+      <p><strong>Email:</strong> {{ submittedData.email }}</p>
     </div>
   </div>
 </div>
