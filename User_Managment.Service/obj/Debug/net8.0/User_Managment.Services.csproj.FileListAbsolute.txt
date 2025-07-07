@@ -1,0 +1,17 @@
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.Services.deps.json
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.Services.runtimeconfig.json
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.Services.dll
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.Services.pdb
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.DataAccess.dll
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\bin\Debug\net8.0\User_Managment.DataAccess.pdb
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.csproj.AssemblyReference.cache
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.AssemblyInfoInputs.cache
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.AssemblyInfo.cs
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.csproj.CoreCompileInputs.cache
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Man.2F623045.Up2Date
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.dll
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\refint\User_Managment.Services.dll
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.pdb
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\User_Managment.Services.genruntimeconfig.cache
+C:\Users\swet\source\repos\DemoSolution\User_Managment\User_Managment.Service\obj\Debug\net8.0\ref\User_Managment.Services.dll
