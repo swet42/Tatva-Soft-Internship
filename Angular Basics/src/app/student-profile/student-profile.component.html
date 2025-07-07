@@ -1,0 +1,36 @@
+<div class="container mt-5">
+  <!-- One-way binding -->
+  <h2 class="text-center text-primary">{{ welcomeMessage }}</h2>
+
+  <!-- Form -->
+  <form (ngSubmit)="submitForm()" #form="ngForm" class="card shadow p-4 mt-4 mx-auto" style="max-width: 500px;">
+    <div class="mb-3">
+      <label class="form-label">Full Name</label>
+      <input class="form-control" name="name" [(ngModel)]="name" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Branch</label>
+      <input class="form-control" name="branch" [(ngModel)]="branch" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Enrollment No</label>
+      <input class="form-control" name="enrollment" [(ngModel)]="enrollment" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input class="form-control" name="email" [(ngModel)]="email" required>
+    </div>
+    <button class="btn btn-success w-100" [disabled]="!form.form.valid">Submit</button>
+  </form>
+
+  <!-- Display submitted info -->
+  <div *ngIf="submitted" class="mt-4 text-center">
+    <div class="card p-3 shadow mx-auto" style="max-width: 500px;">
+      <h4 class="text-success mb-3">Student Profile Submitted</h4>
+      <p><strong>Name:</strong> {{ submittedData.name }}</p>
+      <p><strong>Branch:</strong> {{ submittedData.branch }}</p>
+      <p><strong>Enrollment:</strong> {{ submittedData.enrollment }}</p>
+      <p><strong>Email:</strong> {{ submittedData.email }}</p>
+    </div>
+  </div>
+</div>
